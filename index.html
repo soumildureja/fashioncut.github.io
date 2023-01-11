@@ -14,6 +14,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Fashion Cut</title>
+    <script>
+       var images = ["salon-01.jpg",
+                    "photo.jpeg",
+                    "photo5.webp"];
+       var i=0;
+       function slides(){
+        document.getElementById("img").src = images[i];
+        if(i<(images.length-1))
+        i++;
+        else
+        i=0;
+       }
+       setInterval(slides, 2000)
+       var images1 = ["salon-02.jpg",
+                    "photo4.webp",
+                    "photo3.jpeg"];
+       var i1=0;
+       function slides1(){
+        document.getElementById("img1").src = images1[i];
+        if(i<(images.length-1))
+        i1++;
+        else
+        i1=0;
+       }
+       setInterval(slides1, 2000)
+    </script>
 </head>
 <body>
     <header>
@@ -22,7 +48,7 @@
         Fashion Cut
     </div>
     </header>
-    <div class="note">WELCOME TO OUR SALOON</div>
+    <!-- <div class="note">WELCOME TO OUR SALOON</div> -->
     <div class="sidebar">
       <div class="logo-details">
         <i class='bx bx-spray-can'></i>
@@ -91,6 +117,9 @@
     <!-- <section class="home-section">
         <div class="text">Dashboard</div>
     </section> -->
+    <div class="text">
+      <img src="salon-02.jpg" align="right" id = "img1"><img src="salon-01.jpg" align="right" id = "img">TWO DECADES <br>OF<br> FASHION CUT
+    </div>
 
     <script>
       let sidebar = document.querySelector(".sidebar");
