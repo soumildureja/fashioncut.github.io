@@ -5,7 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="l1-removebg-preview.png" type="image/gif/png">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -49,6 +54,18 @@
         i1=0;
        }
        setInterval(slides1, 2000)
+       var images2 = ["Interior-01.jpg",
+                      "Interior-04.jpg",
+                      "Interior-02.jpeg"];
+       var i2=0;
+       function slides2(){
+        document.getElementById("i1").src = images2[i];
+        if(i<(images.length-1))
+        i2++;
+        else
+        i2=0;
+       }
+       setInterval(slides2, 2000)
     </script>
 </head>
 <body>
@@ -132,9 +149,6 @@
        </li>
       </ul>
     </div>
-    <!-- <section class="home-section">
-        <div class="text">Dashboard</div>
-    </section> -->
     <div class="text">
       <img src="salon-02.jpg" align="right" id = "img1"><img src="salon-01.jpg" align="right" id = "img">TWO DECADES <br>OF<br> FASHION CUT
     </div>
@@ -175,8 +189,35 @@
         <a href="#"><button class="btn8">Laser <span id = "w">Hair</span> Reduction</button></a>
       </div>
     </div>
-   
-
+    <div class="lin">
+     The world of<br>
+    </div>
+    <div class="lin1">
+      <div class="linee">
+        <span id="cut">Fashion Cut</span>
+    </div>
+    <img src="Interior-01.jpg" id="i1">
+    
+      <a href="location.html"><font size="3px"><div class="know">━━ Know More</div></font></a>
+      </div>
+      <div class="words">
+        Testimonials<br>
+        <p id="worth"> Words of Worth</p>
+      </div>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"  style="border:#a38253; border-width:5px; border-radius: 6px; border-style: solid;">Hi everyone, my name is Rachna, I<br>live in Sector 15, Part-2, Gurgaon, I remember, first time, I visited Fashion Cut was sometime in year<br>2001, due to proximity to my home & convenient location on Jharsa Road,<br>Gurgaon. That very first experience, turned out into very long-lasting<br>relationship due to their very familiar, cozy ambience of Parlor & very cordial<br>staff. The products used by them are of highest standard like Loreal, Lotus,<br>Ozone, & similar brands. Staff is well trained professionally, Quality of<br>services provided by them is always up to the mark & satisfies clients.<br>Hygiene is always on very high priority & cost is affordable. I am still their<br>regular customers, I wish them all the best for success.</div>
+          <div class="swiper-slide">Slide 2</div>
+          <div class="swiper-slide">Slide 3</div>
+          <div class="swiper-slide">Slide 4</div>
+          <div class="swiper-slide">Slide 5</div>
+          <div class="swiper-slide">Slide 6</div>
+          <div class="swiper-slide">Slide 7</div>
+          <div class="swiper-slide">Slide 8</div>
+          <div class="swiper-slide">Slide 9</div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
     <script>
       let sidebar = document.querySelector(".sidebar");
       let closeBtn = document.querySelector("#btn");
@@ -200,6 +241,12 @@
          closeBtn.classList.replace("bx-menu-alt-right","bx-menu");//replacing the iocns class
        }
       }
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+          dynamicBullets: true,
+        },
+      });
       </script>
 </body>
 </html>
