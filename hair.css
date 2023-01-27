@@ -575,42 +575,6 @@ animation: slider1 9s infinite linear;
   color: #000;
   font-size: 52px;
 }
-.swiper {
-  width: 100%;
-  height: 100%;
-}
-
-.swiper-slide {
-  text-align: center;
-  font-size: 22px;
-  background: #000;
-  color: #fff;
-  /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  /* display: flex; */
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
-  font-style: italic;
-  font-family: ubuntu;
-  border: #a38253;
-  line-height: 1.7em;
-  display: block;
-}
-
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
 #o{
   font-size: 30px;
   color: #a38253;
@@ -710,50 +674,42 @@ animation: slider1 9s infinite linear;
   font-family: prata;
   font-size: 19px;
 }
-.downbar{
-  background-color: #141414;
-  padding-left: 10%;
-  margin-top: 3%;
+
+.swiper {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -150px;
+    margin-top: 70%;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    background-color: #a38253;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+#port{
+    font-family: prata;
+    text-align: center;
+    font-size: 40px;
+    margin-left: 2%;
+    letter-spacing: 0.1em;
 }
-.logo1{
-    width: 12%;
-    display: inline-block;
-    margin-top: 4%;
-}
-#son{
-  color: #a38253;
-  padding-left: 30%;
-  padding-top: 8%;
-  display: inline-block;
-  position: absolute;
-  font-size: 26px;
-  font-family: prata;
-}
-#para1{
-  font-family: ubuntu;
-  color: rgba(255, 255, 255, 0.55);
-  font-size: 14px;
-  padding-left: -2%;
-}
-#whatsapp{
-  color: #a38253;
-  size: 100%;
-  margin-left: 33%;
-  font-size: 20px;
-}
-#email1{
-  color: #a38253;
-  margin-left: 45%;
-  margin-top: 1%;
-  font-size: 20px;
-}
-#linee{
-  margin-top: 100%;
-  color: gray;
-}
-#res{
-  padding-left: 35%;
-  margin-top: 20%;
-  color: #fff;
-  
+.btn90{
+    color: #FFFFFF !important;
+    background-color: #D0A44B !important;
+    border-radius: 4px 4px 4px 4px;
+    padding: 15px 20px 15px 20px;
+    border: none !important;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 40%;
+    margin-left: 35%;
 }
