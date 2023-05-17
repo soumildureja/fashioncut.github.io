@@ -9,7 +9,7 @@
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
 />
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,24 +28,13 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">    
-  <title>Fashion Cut</title>
-  <script>
-    var images = ["img/p1.jpg",
-                    "img/p2.jpg",
-                    "img/nails-1.jpg"];
-       var i=0;
-       function slides(){
-        document.getElementById("imgofp1").src = images[i];
-        if(i<(images.length-1))
-        i++;
-        else
-        i=0;
-       }
-       setInterval(slides, 3000)
-  </script>
+<link rel="stylesheet" href="mem.css">  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<title>Fashion Cut</title>
 </head>
-    <body>
-        <header>
+<body>
+    <header>
         <img src="l1-removebg-preview.png" alt="" srcset="" class="logo">
         <div class="right">
             Fashion Cut
@@ -100,14 +89,14 @@
              <span class="tooltip">Gallery</span>
            </li>
            <li>
-            <a href="membership.html">
-               <i class='bx bx-male-female'></i>
-              <span class="links_name">Membership</span>
-            </a>
-            <span class="tooltip">Membership</span>
-          </li>
-           <!-- <li> -->
-            <!-- <a href="services.html">
+             <a href="membership.html">
+                <i class='bx bx-male-female'></i>
+               <span class="links_name">Membership</span>
+             </a>
+             <span class="tooltip">Membership</span>
+           </li>
+           <!-- <li>
+            <a href="services.html">
               <i class='bx bx-briefcase'></i>
               <span class="links_name">Services</span>
             </a>
@@ -125,11 +114,37 @@
            </li>
           </ul>
         </div>
-        <div>
-           <span id="welcome">Welcome to the world of</span>   
-           <p id="cut">FASHION CUT</p>   
-          <img src="img/p1.jpg" align="right" id="imgofp1"> <p id="p1">At Fashion Cut, we believe in a beautiful you, inside out. Looking<br>beautiful is just as important as feeling it and our mission is to achieve both,<br>for our customers who entrust us with the task. We embark on a journey of<br>shaping gorgeousness holistically, an inner experience manifesting stunning<br>looks on the exterior and vice versa.<br><br><br>We are a team of professionals mentored and guided by the talented Priya<br>Kalra,a renowned name in the beauty industry, our team believes in creating<br>an exceptional environment of comfort and warmth for our clients and<br>providing top quality services, ensuring that time spent with us is absolutely<br>worth it.<br><br><br>We have an array of services to choose from such as make-up, hair care<br>artistry, hair colour & redefining, hair care treatment, body pampering, skin<br>care, relaxation, nail art. While providing these regular care services we are<br>also equipped with providing long term beauty solutions to our clients with<br>Derma Grace, a WING OF Fahion Cut, with the right consultants,<br>professionals, machines and experts who come from years of experience, we<br>can assure you that a beautiful look you’ve always wanted can be yours forever.</p>      
+        <div class="textx">Our Special<br><span id="texty">Lockdown Lifted. Spirits Lifted Up</span><br><span id="end">~</span></div>
+        <div class="textz">Thank you for staying home. Now it’s time you step out and let us take care of you.</div>
+        <br><br>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><i class='bx bx-female' id="female"></i><br><span id="textk">Offer for ladies</span></div>
+            <div class="swiper-slide"><span id="texts">INR 3600</span><br>
+             <span id="text7">
+              Threading<br>
+              Upper Lips<br>
+              Nail Rituals<br>
+              Hair Wash and Blow Dry<br>
+              Full Body Waxing<br>
+              Hair Color Touch Up</div>
+             </span>
+          </div><br><br><br>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><i class='bx bx-male' id="female"></i><br><span id="textk">Offer for Gents</span></div>
+              <div class="swiper-slide"><span id="texts">INR 3600</span><br>
+               <span id="text7">
+                Threading<br>
+                Upper Lips<br>
+                Nail Rituals<br>
+                Hair Wash and Blow Dry<br>
+                Full Body Waxing<br>
+                Hair Color Touch Up</div>
+               </span>
+            </div>
         </div>
+        </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         <div class="downbar">
           <img src="l1-removebg-preview.png" class="logo1"><span id ="son">Contact us ━━</span>
           <i class='bx bxl-whatsapp' id="whatsapp">91-9810168197</i><br><i class='bx bx-envelope' id="email1">durejasoumil@gmail.com</i><p id="para1">Celebrating beauty inside out, join us in the<br>journey of creating the right look with the<br>right feeling.</p>
@@ -138,38 +153,37 @@
         </div>
         <script>
       
-            let sidebar = document.querySelector(".sidebar");
-            let closeBtn = document.querySelector("#btn");
-            let searchBtn = document.querySelector(".bx-search");
-          
-            closeBtn.addEventListener("click", ()=>{
-              sidebar.classList.toggle("open");
-              menuBtnChange();//calling the function(optional)
-            });
-          
-            searchBtn.addEventListener("click", ()=>{ // Sidebar open when you click on the search iocn
-              sidebar.classList.toggle("open");
-              menuBtnChange(); //calling the function(optional)
-            });
-          
-            // following are the code to change sidebar button(optional)
-            function menuBtnChange() {
-             if(sidebar.classList.contains("open")){
-               closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");//replacing the iocns class
-             }else {
-               closeBtn.classList.replace("bx-menu-alt-right","bx-menu");//replacing the iocns class
-             }
-            }
-            var swiper = new Swiper(".mySwiper", {
-              pagination: {
-                el: ".swiper-pagination",
-                dynamicBullets: true,
-              },
-            });
-            // let btn = document.getElementById("leave");
-            // btn.addEventListener('click', event => {
-            // alert("Comment Posted");
-      // });
-            </script>
+      let sidebar = document.querySelector(".sidebar");
+      let closeBtn = document.querySelector("#btn");
+      let searchBtn = document.querySelector(".bx-search");
+    
+      closeBtn.addEventListener("click", ()=>{
+        sidebar.classList.toggle("open");
+        menuBtnChange();//calling the function(optional)
+      });
+    
+      searchBtn.addEventListener("click", ()=>{ // Sidebar open when you click on the search iocn
+        sidebar.classList.toggle("open");
+        menuBtnChange(); //calling the function(optional)
+      });
+    
+      // following are the code to change sidebar button(optional)
+      function menuBtnChange() {
+       if(sidebar.classList.contains("open")){
+         closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");//replacing the iocns class
+       }else {
+         closeBtn.classList.replace("bx-menu-alt-right","bx-menu");//replacing the iocns class
+       }
+      }
+      // let btn = document.getElementById("leave");
+      // btn.addEventListener('click', event => {
+      // alert("Comment Posted");
+// });
+
+      var swiper = new Swiper(".mySwiper", {
+        effect: "cards",
+        grabCursor: true,
+        });
+        </script>
 </body>
 </html>

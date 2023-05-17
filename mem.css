@@ -529,7 +529,6 @@ animation: slider1 9s infinite linear;
   padding-left: 16%;
   padding-top: 4%;
   margin-top: 3%;
-  width: 100%;
 }
 .lin1{
   font-family: prata;
@@ -576,6 +575,7 @@ animation: slider1 9s infinite linear;
   color: #000;
   font-size: 52px;
 }
+
 #o{
   font-size: 30px;
   color: #a38253;
@@ -606,15 +606,24 @@ animation: slider1 9s infinite linear;
 }
 #name{
   margin-left: 10%;
+  margin-top: 1%;
   font-family: roboto;
   font-size: 14px;
   padding-top: 0.5%;
   padding-left: 1%;
   border-radius: 4px;
   border-style: smooth;
+  border: none;
+  height: 43px;
+  width: 38%;
+  font-size: 15px;
 }
 #email{
-  margin-left: 2%;
+  font-size: 15px;
+  height: 43px;
+  width: 42%;
+  margin-left: 8%;
+  border: none;
   font-family: roboto;
   font-size: 14px;
   padding-top: 0.5%;
@@ -675,68 +684,6 @@ animation: slider1 9s infinite linear;
   font-family: prata;
   font-size: 19px;
 }
-
-.swiper {
-    width: 300px;
-    height: 300px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin-left: -150px;
-    margin-top: 70%;
-  }
-
-  .swiper-slide {
-    background-position: center;
-    background-size: cover;
-    background-color: #a38253;
-  }
-
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-  } 
-#port{
-    font-family: prata;
-    text-align: center;
-    font-size: 40px;
-    margin-left: 2%;
-    letter-spacing: 0.1em;
-}
-.btn90{
-    color: #FFFFFF !important;
-    background-color: #D0A44B !important;
-    border-radius: 4px 4px 4px 4px;
-    padding: 15px 20px 15px 20px;
-    border: none !important;
-    font-weight: 600;
-    font-size: 17px;
-    margin-top: 10%;
-    margin-left: 35%;
-}
-.btn98{
-  text-align: center;
-  margin-top: 20%;
-  margin-left: 18%;
-  color: #000;
-  font-size: 15px;
-  font-weight: 500;
-  text-transform: uppercase;
-  padding: 15px 12px;
-  min-width: 200px;
-  position: relative;
-  overflow: hidden;
-  display: inline-block;
-  border: 0;
-  background-clip: border-box !important;
-  cursor: pointer;
-  transition: box-shadow 0.3s, color 0.3s !important;
-  background-color: #a38253;
-  font-family: roboto;
-}
-.btn98:hover{
-  background: #000;
-}
 .downbar{
   background-color: #141414;
   padding-left: 10%;
@@ -782,4 +729,388 @@ animation: slider1 9s infinite linear;
   padding-left: 35%;
   margin-top: 20%;
   color: #fff;
+}
+#firstone{
+  width: 25%;
+  margin-left: 10%;
+  display: inline;
+}
+#secondone{
+  width: 25%;
+  margin-left: 3%;
+}
+#thirdone{
+  width: 25%;
+  margin-left: 3%;
+}
+#fourthone{
+  width: 25%;
+  margin-left: 10%;
+  margin-top: 1%;
+}
+#fifthone{
+  width: 25%;
+  margin-left: 3%;
+  margin-top: 1%;
+}
+#sixthone{
+  width: 25%;
+  margin-left: 3%;
+  margin-top: 1%;
+}
+#seventhone{
+  width: 25%;
+  margin-left: 10%;
+  margin-top: 1%;
+}
+#eightone{
+  width: 25%;
+  margin-left: 3%;
+  margin-top: 1%;
+}
+#texta{
+  margin-left: 30%;
+  color: #000;
+  font-family: poppins;
+}
+#name1{
+  margin-left: 5%;
+  width: 30%;
+  height: 100%;
+  border: none;
+  border-radius: 2px;
+  margin-top: 3%;
+}
+#textb{
+  margin-left: 30%;
+  color: #000;
+  font-family: poppins;
+}
+#email2{
+  margin-left: 5.3%;
+  border: none;
+  border-radius: 2px;
+  width: 30%;
+  margin-top: 2%;
+}
+#textc{
+  margin-left: 30%;
+  color: #000;
+  font-family: poppins;
+}
+#date{
+  margin-left: 5.7%;
+  margin-top: 2%;
+  width: 30%;
+  border: none;
+  border-radius: 2px;
+}
+#textd{
+  margin-left: 30%;
+  font-family: poppins;
+}
+#phonee{
+  margin-top: 2%;
+  margin-left: 0.2%;
+  border: none;
+  width: 30%;
+}
+#facilities{
+  margin-top: 2%;
+  margin-left: 3.3%;
+  border: none;
+  width: 30%;
+  max-height: 100%;
+}
+#beauty{
+  text-align: center;
+  font-family: Mrs Saint Delafield;
+  color: #a38253;
+  font-size: 48px;
+}
+#remove{
+  text-align: center;
+  color: #141414;
+  font-family: prata;
+  font-size: 48px;
+}
+#agent{
+  text-align: center;
+  font-family: ubuntu, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin-top: 1%;
+}
+/* .flexbox1{
+  display: flex;
+} */
+.makeupp{
+  margin-top: 2%;
+  margin-left: 10%;
+  border-radius: 10px;
+}
+.makeupp:hover{
+  border: #000;
+
+}
+.nails{
+  display: inline;
+  margin-left: 8%;
+  border-radius: 10px;
+}
+.pedicure{
+  margin-left: 10%;
+  border-radius: 10px;
+}
+#makeupp{
+  margin-left: 1%;
+  margin-left: 14.5%;
+  background-color: #11101d;
+  color: white;
+  font-family: poppins;
+  border: none;
+  border-radius: 2px;
+  padding: 10px 20px;
+  font-size: 15px;
+  display: inline;
+}
+#makeupp:hover{
+  background-color: #FFF;
+  cursor: pointer;
+}
+#nails{
+  margin-left: 1%;
+  margin-left: 19%;
+  background-color: #11101d;
+  color: white;
+  font-family: poppins;
+  border: none;
+  border-radius: 2px;
+  padding: 10px 20px;
+  font-size: 15px;
+  display: inline;
+}
+#nails:hover{
+  background-color: #FFF;
+  cursor: pointer;
+}
+#pedicure{
+  margin-left: 1%;
+  margin-left: 25%;
+  background-color: #11101d;
+  color: white;
+  font-family: poppins;
+  border: none;
+  border-radius: 2px;
+  padding: 10px 20px;
+  font-size: 15px;
+  display: inline;
+}
+#spa{
+  margin-left: 1%;
+  margin-left: 16%;
+  background-color: #11101d;
+  color: white;
+  font-family: poppins;
+  border: none;
+  border-radius: 2px;
+  padding: 10px 20px;
+  font-size: 15px;
+  display: inline;
+}
+#spa:hover{
+  background-color: #FFF;
+  cursor: pointer;
+}
+#massage{
+  margin-left: 1%;
+  margin-left: 20%;
+  background-color: #11101d;
+  color: white;
+  font-family: poppins;
+  border: none;
+  border-radius: 2px;
+  padding: 10px 20px;
+  font-size: 15px;
+  display: inline;
+}
+#massage:hover{
+  background-color: #FFF;
+  cursor: pointer;
+}
+#rituals{
+  margin-left: 1%;
+  margin-left: 23%;
+  background-color: #11101d;
+  color: white;
+  font-family: poppins;
+  border: none;
+  border-radius: 2px;
+  padding: 10px 20px;
+  font-size: 15px;
+  display: inline;
+}
+#rituals:hover{
+  background-color: #FFF;
+  cursor: pointer;
+}
+#wax{
+  margin-left: 1%;
+  margin-left: 22%;
+  background-color: #11101d;
+  color: white;
+  font-family: poppins;
+  border: none;
+  border-radius: 2px;
+  padding: 10px 20px;
+  font-size: 15px;
+  display: inline;
+}
+#wax:hover{
+  background-color: #FFF;
+  cursor: pointer;
+}
+.picc{
+  margin-left: 37%;
+}
+.fashionandbeauty{
+  font-family: prata;
+  font-size: 35px;
+  margin-left: 10%;
+  margin-top: 1%;
+}
+#para4{
+  font-family: 'ubuntu';
+  line-height: 1.7em;
+  margin-left: 12%;
+  margin-top: 1%;
+  font-weight: 500;
+}
+#para5in{
+  color: #a38253;
+  font-size: 50px;
+  font-family: poppins;
+  padding-top: 15%;
+}
+#para5{
+  text-align: center;
+  border: #000;
+  border: 10px;
+  border-width: 10%;
+  border-color: #000;
+  font-family: ubuntu;
+  font-weight: 500;
+}
+.ul1{
+  margin-top: 1%;
+  margin-left: 15%;
+  font-family: poppins;
+  color: #000;
+}
+.fashionandbeauty1{
+  font-family: prata;
+  font-size: 35px;
+  margin-left: 12%;
+  margin-top: 2%;
+}
+.blog{
+  width: 80%;
+  margin-top: 2%;
+  margin-left: 14%;
+}
+#welcome{
+  margin-left: 15%;
+  font-family: Mrs Saint Delafield;
+  color: #a38253;
+  font-size: 38px;
+}
+#cut{
+  font-family: prata;
+  font-weight: 500;
+  margin-left: 11%;
+  font-size: 50px;
+}
+#p1{
+  font-family: poppins;  
+  font-weight: 100;
+  margin-left: 8%;
+}
+#imgofp1{
+  max-width: 41%;
+  margin-right: 2%;
+}
+.wood{
+  min-width: 100%;
+  /* min-height: 1%; */
+}
+.textx{
+  font-family: mrs saint delafield;
+  text-align: center;
+  color: #a38253;
+  font-size: 35px;
+  font-weight: 550;
+}
+#texty{
+  font-family: prata;
+  text-align: center;
+  color: #000;
+  font-size: 35px;
+  font-weight: 550;
+}
+#end{
+  font-size: 50px;
+  font-weight: 0;
+}
+.textz{
+  font-family: poppins;
+  text-align: center;
+  font-size: 18px;
+}
+.swiper {
+    width: 240px;
+    height: 320px;
+  }
+
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .swiper-slide:nth-child(1n) {
+    background-color: #f8d6d6;
+  }
+
+  .swiper-slide:nth-child(2n) {
+    background-color: #D0A44B;
+    color: #fff;
+  }
+#female{
+    color: #000;
+    align-self: center;
+    align-items: center;
+    margin-left: 42%;
+    margin-top: 50%;
+    font-size: 200%;
+}
+#textk{
+    font-family: poppins;
+    color: #000;
+    margin-left: 17%;
+    margin-top: 5%;   
+}
+#texts{
+    color: #000;
+    font-family: prata;
+    margin-left: 26%;
+}
+#text7{
+    font-family: poppins;
+    font-weight: 0;
+    font-style: italic;
+    margin-top: 3%;
 }
